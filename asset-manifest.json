@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sora-choi/static/css/main.797c4fd9.css",
+    "main.js": "/sora-choi/static/js/main.558662c9.js",
+    "static/js/787.6998cd2f.chunk.js": "/sora-choi/static/js/787.6998cd2f.chunk.js",
+    "static/media/elle1.jpg": "/sora-choi/static/media/elle1.5140b1476032cf00f099.jpg",
+    "static/media/s3.jpg": "/sora-choi/static/media/s3.9a831e656944cf01fdd9.jpg",
+    "static/media/s4.jpg": "/sora-choi/static/media/s4.90e9414f87ee537a8521.jpg",
+    "static/media/s2.jpg": "/sora-choi/static/media/s2.06fde0c0c9fab866cc33.jpg",
+    "static/media/soraversace.jpg": "/sora-choi/static/media/soraversace.d29b0ced5aa2fa26ac1d.jpg",
+    "static/media/biosora.jpg": "/sora-choi/static/media/biosora.331477a7c4a30b0a7ec9.jpg",
+    "static/media/wow1.jpg": "/sora-choi/static/media/wow1.e2c4c2a5e18586579d65.jpg",
+    "static/media/s1.jpg": "/sora-choi/static/media/s1.584a031c8939e2e094f5.jpg",
+    "static/media/sorac.jpg": "/sora-choi/static/media/sorac.8ec7a3eeaba177ba5493.jpg",
+    "static/media/sorachoimugler.jpg": "/sora-choi/static/media/sorachoimugler.48af3227f5433eaab08b.jpg",
+    "static/media/dazed1.jpg": "/sora-choi/static/media/dazed1.793aeadf784e62504df2.jpg",
+    "static/media/vogue1.jpg": "/sora-choi/static/media/vogue1.dc7abeced0c0bbbdb229.jpg",
+    "static/media/bazaar1.jpg": "/sora-choi/static/media/bazaar1.a03bd2ac6cea66b94e22.jpg",
+    "static/media/vacanza.jpg": "/sora-choi/static/media/vacanza.3f37cb53a66bf9997333.jpg",
+    "static/media/d1.jpg": "/sora-choi/static/media/d1.435beb3a4bba42e9cec0.jpg",
+    "static/media/v1.jpg": "/sora-choi/static/media/v1.2c2f7af7ccb1361caea8.jpg",
+    "static/media/perfect1.jpg": "/sora-choi/static/media/perfect1.c87c2bd58e14c93711a4.jpg",
+    "static/media/ybloods.png": "/sora-choi/static/media/ybloods.514a8a9fa38dbf573cd7.png",
+    "static/media/whilhelmina.jpg": "/sora-choi/static/media/whilhelmina.9f9598d7fd1de68498b6.jpg",
+    "index.html": "/sora-choi/index.html",
+    "main.797c4fd9.css.map": "/sora-choi/static/css/main.797c4fd9.css.map",
+    "main.558662c9.js.map": "/sora-choi/static/js/main.558662c9.js.map",
+    "787.6998cd2f.chunk.js.map": "/sora-choi/static/js/787.6998cd2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.797c4fd9.css",
+    "static/js/main.558662c9.js"
+  ]
+}
