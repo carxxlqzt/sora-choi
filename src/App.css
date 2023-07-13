@@ -38,12 +38,76 @@ body {
   display: block;
   width: 100%;}
 .card-body{
-  background-color: #14141437;
+  background-color: #756d6d7c;
   backdrop-filter: blur(2px);
   transition: 2s;
 }
 .card:hover .card-body{
   
   right:0;
-  background-color:#dbd9d4;
+  color:white;
+  background-color:#756d6d7c;
+}
+
+
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 4vh;
+  left: -150vw;
+  width: 100vw;
+  height: 400px;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+.navbar__list--active {
+  left: 0;
+  padding-left: 0;
+}
+
+.navbar__menu {
+  display: block;
+}
+.iconNavbar{
+  z-index: 5;
+  color: aliceblue;
+}
+.iconn{
+  color: aliceblue;
+}
+.navbar__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+ flex: 1;
+}
+
+.navbar__link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border-width: 0px;
+  background-color: black;
+  opacity: 0.75;
+  color: aliceblue;
+}
+
+.navbar__link:hover {
+  border-width: 1px;
+  opacity: 0.9;
+}
+.video{
+  object-fit: cover;
+  width: 80%;
+  height: 90%;
+  position:absolute;
+   z-index:0
 }

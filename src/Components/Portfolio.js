@@ -38,7 +38,7 @@ const Portfolio = () => {
                              objectFit='cover'
                              src={item.url}
                              alt='Caffe Latte'
-                             onLoad={() => setTimeout(() => setIsImageLoaded(true), 2000)}
+                             onLoad={() => setTimeout(() => setIsImageLoaded(true), 1200)}
 
                             
                                 />
@@ -56,7 +56,7 @@ const Portfolio = () => {
                                 
                           <CardFooter p='0rem 1rem 1rem 1rem'>
                             <Button variant='solid' colorScheme='blue'>
-                              More Details
+                              More details
                             </Button>
                           </CardFooter>
                         </Stack>
