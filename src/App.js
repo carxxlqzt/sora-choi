@@ -22,6 +22,7 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import ArticleItem from './Components/Article';
 import { NavMobile } from './Components/NavMobile';
+import { Footer } from './Components/Footer';
 function App() {
   const [landscape,setLandscape] = React.useState(window.matchMedia("(min-width: 770px)").matches)
   React.useEffect(()=>{
@@ -51,6 +52,7 @@ function App() {
 
          
          </Routes>
+         <Footer/>
 
     </ChakraProvider>
   );

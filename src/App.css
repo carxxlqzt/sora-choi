@@ -73,10 +73,13 @@ body {
 }
 .iconNavbar{
   z-index: 5;
-  color: aliceblue;
+  color: white;
+  opacity: 75%;
+  position: absolute
 }
 .iconn{
-  color: aliceblue;
+  color: white;
+  opacity:75%
 }
 .navbar__item {
   width: 100%;

@@ -11,7 +11,7 @@ export const Carrousel = ()=> {
 
 
     return(
-        <Box w='100vw' h={['70vh','80vh','90vh','90vh']}  display='flex' alignItems='center'  >
+        <Box w='100vw' height={['70vh','80vh','90vh','90vh']}  display='flex' alignItems='center'  >
            <Swiper
         effect={"coverflow"}
         grabCursor={true}

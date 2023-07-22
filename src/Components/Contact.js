@@ -6,7 +6,7 @@ import {BsTwitter,BsFacebook,BsInstagram} from 'react-icons/bs'
 const Contact = () => {
     console.log(AGENCIES)
   return (
-    <Box w='100vw' h='100vh' position='relative' >
+    <Box w='100vw' height='100vh' position='relative' >
         <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100vw'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='contain' > </Box>
          <Box h={['70%','70%','70%','70%','80%']} position='absolute' zIndex='2' margin='2rem 0rem 1rem 1rem' display='flex' flexDirection='column' justifyContent='space-around'>
             <Box >
@@ -30,7 +30,6 @@ const Contact = () => {
                <a href='https://www.instagram.com/sola5532/'> <BsTwitter   fontSize='3rem' color='white'/></a>
                <a href='https://www.facebook.com/ModelChoisora'> <BsFacebook  fontSize='3rem' color='white'/></a>
                <a href='https://www.instagram.com/sola5532/'> <BsInstagram fontSize='3rem' color='white'/></a>
-                {/* <Image h='3rem' src={AGENCIES[5].sora}></Image> */}
                 </Flex>
             </Box>
         </Box>

@@ -6,7 +6,7 @@ export const Bio= () =>{
   console.log(IMGCarrousel)
     return(
     
-        <Flex alignItems='center' justifyContent='center' marginBottom='4rem' h='90vh' >
+        <Flex alignItems='center' justifyContent='center' marginBottom='4rem' height='90vh' >
       <Grid
         w='80%'
         h='90%'
