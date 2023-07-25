@@ -6,9 +6,9 @@ import {BsTwitter,BsFacebook,BsInstagram} from 'react-icons/bs'
 const Contact = () => {
     console.log(AGENCIES)
   return (
-    <Box w='100vw' height='100vh' position='relative' >
+    <Box w='100vw' height='90vh' position='relative' display='flex' alignItems='center' >
         <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100vw'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='contain' > </Box>
-         <Box h={['70%','70%','70%','70%','80%']} position='absolute' zIndex='2' margin='2rem 0rem 1rem 1rem' display='flex' flexDirection='column' justifyContent='space-around'>
+         <Box h={['70%','70%','70%','70%','80%']} position='absolute' zIndex='2' marginLeft='1rem' display='flex' flexDirection='column' justifyContent='space-around'>
             <Box >
              <Text color='white' fontFamily='Roboto, sans-serif' >MODELING AGENCIES</Text>   
             <Flex flexDirection='row' flexWrap='wrap' w={['90vw','90vw','90vw','80vw' ,'60vw']}  >

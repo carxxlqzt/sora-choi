@@ -109,7 +109,7 @@ body {
 }
 .video{
   object-fit: cover;
-  width: 80%;
+  width: 70%;
   height: 90%;
   position:absolute;
    z-index:0
