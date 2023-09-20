@@ -12,7 +12,7 @@ export const NavMobile = () => {
     console.log(menuClicked)
   };
   return (
-    <Box position='absolute' top='0' minH='8vh' bg='#141414' w='100vw' zIndex='4' p='1rem' display='flex' alignItems='center'>
+    <Box position='relative' top='0' minH='8vh' bg='#141414' w='100vw' zIndex='4' p='1rem' display='flex' alignItems='center'>
     {menuClicked ? (
      <FiX size={35}  onClick={toggleMenuClick} className='iconNavbar' />
    ) : (

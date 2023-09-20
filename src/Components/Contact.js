@@ -7,8 +7,8 @@ const Contact = () => {
     console.log(AGENCIES)
   return (
     <Box w='100vw' height='90vh' position='relative' display='flex' alignItems='center' >
-        <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100vw'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='contain' > </Box>
-         <Box h={['70%','70%','70%','70%','80%']} position='absolute' zIndex='2' marginLeft='1rem' display='flex' flexDirection='column' justifyContent='space-around'>
+        <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100%'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='cover' > </Box>
+         <Box h={['90%','90%','90%','90%','90%']} position='absolute' zIndex='2' marginLeft='1rem' display='flex' flexDirection='column' justifyContent='space-around'>
             <Box >
              <Text color='white' fontFamily='Roboto, sans-serif' >MODELING AGENCIES</Text>   
             <Flex flexDirection='row' flexWrap='wrap' w={['90vw','90vw','90vw','80vw' ,'60vw']}  >

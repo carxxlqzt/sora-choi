@@ -4,7 +4,7 @@ import {Flex,Button,Box} from '@chakra-ui/react'
 import { NavLinks } from './const/Navlinks'
 const Navbar = () => {
   return (
-   <Flex justifyContent='center' >
+   <Flex justifyContent='center' position='relative' >
     <Flex flexDirection='row' justifyContent='end' w='80vw' borderBottom='1px solid' borderColor='whiteAlpha.500'>
         <Box    marginBottom='0.3rem'>
         {NavLinks.map((item,index)=>{

@@ -23,6 +23,9 @@ import Portfolio from './Components/Portfolio';
 import ArticleItem from './Components/Article';
 import { NavMobile } from './Components/NavMobile';
 import { Footer } from './Components/Footer';
+import {Gallery} from './Components/ImageGallery';
+
+import { GALLERY } from './Components/const/Images';
 function App() {
   const [landscape,setLandscape] = React.useState(window.matchMedia("(min-width: 770px)").matches)
   React.useEffect(()=>{
@@ -49,11 +52,13 @@ function App() {
               <Route path="/gallery" element={<Carrousel />}/>
               <Route path="/contact" element={<Contact />}/>
               <Route path="/portfolio" element={<Portfolio />}/>
+              <Route path="/gallery" element={<Gallery />}/>
 
          
          </Routes>
+   
          <Footer/>
-
+      
     </ChakraProvider>
   );
 }

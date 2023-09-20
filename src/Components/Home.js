@@ -16,7 +16,7 @@ export const Home = () => {
                 <Box w='100%' h='100%' bgColor='black' position='absolute' opacity='30%' zIndex='1' display='flex' justifyContent='center' alignItems='center' >
 
                 </Box>                    
-              <Box bgColor={['black','black','black','transparent','transparent']} zIndex='2' m='0'  padding='1rem' opacity={['50%','50%','50%','80%','80%']} borderRadius='2px' >
+              <Box bgColor='transparent' zIndex='2' m='0'  padding='1rem' opacity={['50%','50%','50%','80%','80%']} borderRadius='2px' >
                 <Text fontSize={['2rem' ,'2rem' ,'2rem' ,'4rem' ,'4rem' ]}   color='white' fontFamily='Tenor Sans, sans-serif' > 
                 SORA CHOI   </Text>
                 <Text color='white' fontSize='0.5rem' textAlign='right' fontFamily='Tenor Sans, sans-serif'>a fanpage created by Loquizta</Text>

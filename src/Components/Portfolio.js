@@ -11,7 +11,7 @@ const Portfolio = () => {
 
   return (
 
-    <Flex w='100vw' height='100vh' justifyContent='center' alignItems='center'    >
+    <Flex w='100vw' minHeight='100vh' justifyContent='center' alignItems='center'    >
         <Flex w='80%' h='80%'justifyContent='space-around' flexWrap='wrap' >
        
         {PORTFOLIO.map((item, index)=>{
