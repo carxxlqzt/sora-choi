@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -28,10 +28,10 @@ export const Carrousel = ()=> {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
       >
-        {IMGCarrousel.map((item)=>{
+        {IMGCarrousel.map((item, id)=>{
           return(  
             
-            <SwiperSlide  className='swiper-slide'>
+            <SwiperSlide key={id}  className='swiper-slide'>
           <img src={item.url} />
         
         </SwiperSlide>

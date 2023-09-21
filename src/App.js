@@ -1,15 +1,10 @@
 import './App.css';
-import {Box,Image, Grid,GridItem,Flex,Text} from '@chakra-ui/react'
 import { ChakraProvider } from '@chakra-ui/react'
-import { FaBeer } from 'react-icons/fa';
 import { Carrousel } from './Components/Carrousel';
 import React, { useRef, useState,useEffect } from "react";
-import {motion} from 'framer-motion'
-import soraBio from './img/biosora.jpg'
-import vacanza from './img/vacanza.jpg'
+
 import { Bio } from './Components/Bio';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { Home } from './Components/Home';
 import {
   
@@ -20,12 +15,10 @@ import {
 import Navbar from './Components/Navbar';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
-import ArticleItem from './Components/Article';
 import { NavMobile } from './Components/NavMobile';
 import { Footer } from './Components/Footer';
 import {Gallery} from './Components/ImageGallery';
 
-import { GALLERY } from './Components/const/Images';
 function App() {
   const [landscape,setLandscape] = React.useState(window.matchMedia("(min-width: 770px)").matches)
   React.useEffect(()=>{
@@ -34,11 +27,12 @@ function App() {
     )
     window.addEventListener('resize',detectarLandscape)
   })
-  
-    useEffect(() => {
-      AOS.init();
-      AOS.refresh();
-    }, []);
+  //import AOS from 'aos';
+// import 'aos/dist/aos.css';
+    // useEffect(() => {
+    //   AOS.init();
+    //   AOS.refresh();
+    // }, []);
    return (
    
     <ChakraProvider>  

@@ -4,7 +4,7 @@ import { AGENCIES } from './const/Images'
 import {BsTwitter,BsFacebook,BsInstagram} from 'react-icons/bs'
 
 const Contact = () => {
-    console.log(AGENCIES)
+    
   return (
     <Box w='100vw' height='90vh' position='relative' display='flex' alignItems='center' >
         <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100%'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='cover' > </Box>
@@ -13,7 +13,7 @@ const Contact = () => {
              <Text color='white' fontFamily='Roboto, sans-serif' >MODELING AGENCIES</Text>   
             <Flex flexDirection='row' flexWrap='wrap' w={['90vw','90vw','90vw','80vw' ,'60vw']}  >
                {AGENCIES.map((item,index)=>{
-                 return( <a href={item.link}>  <Image  boxShadow='base' margin='1.5rem 1.5rem 1.5rem 0rem' rounded='md'
+                 return( <a key={index} href={item.link}>  <Image  boxShadow='base' margin='1.5rem 1.5rem 1.5rem 0rem' rounded='md'
                  objectFit='cover' h={['4rem','3rem','4rem','5rem']} src={item.url} key={index}/></a>) 
                })}   
             </Flex>

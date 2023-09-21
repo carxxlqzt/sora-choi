@@ -11,7 +11,7 @@ const Portfolio = () => {
 
   return (
 
-    <Flex w='100vw' minHeight='100vh' justifyContent='center' alignItems='center'    >
+    <Flex w='100vw' minHeight='100vh' justifyContent='center' alignItems='center'  marginTop='2rem'   >
         <Flex w='80%' h='80%'justifyContent='space-around' flexWrap='wrap' >
        
         {PORTFOLIO.map((item, index)=>{
@@ -31,7 +31,7 @@ const Portfolio = () => {
                     m='1rem'
                              > 
                              {!isImageLoaded && <ImagePlaceholder />}
-                         <Image
+                            <Image
                              className={`img-fluid mb-2 ${isImageLoaded ? "d-block" : "d-none"}`}
                              width='100%'
                              height='100%'
@@ -43,23 +43,23 @@ const Portfolio = () => {
                             
                                 />
   
-                        <Stack position='absolute' w='100%' h='100%' top='0' right='-220' color='white' className='card-body' >
-                          <CardBody padding='1rem'>
-                            <Heading size='sm'>{item.title} </Heading>
+                            <Stack position='absolute' w='100%' h='100%' top='0' right='-220' color='white' className='card-body' >
+                             <CardBody padding='1rem'>
+                              <Heading size='sm'>{item.title} </Heading>
                                 
-                            <UnorderedList spacing={0}  p='0'>
+                              <UnorderedList spacing={0}  p='0'>
                                   <ListItem> {item.info1} </ListItem>
                                   <ListItem> {item.info2} </ListItem>
                                   <ListItem>{item.info3} </ListItem>
                                         </UnorderedList>
-                          </CardBody>
+                                        </CardBody>
                                 
-                          <CardFooter p='0rem 1rem 1rem 1rem'>
+                            <CardFooter p='0rem 1rem 1rem 1rem'>
                             <Button variant='solid' colorScheme='blue'>
-                              More details
-                            </Button>
-                          </CardFooter>
-                        </Stack>
+                                 More details
+                                   </Button>
+                                        </CardFooter>
+                                </Stack>
                 </Card>
             )
         })}

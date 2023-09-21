@@ -9,7 +9,7 @@ export const NavMobile = () => {
 
   const toggleMenuClick = () => {
     setMenuClicked(!menuClicked);
-    console.log(menuClicked)
+    
   };
   return (
     <Box position='relative' top='0' minH='8vh' bg='#141414' w='100vw' zIndex='4' p='1rem' display='flex' alignItems='center'>
