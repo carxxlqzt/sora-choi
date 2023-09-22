@@ -1,10 +1,14 @@
+import React,{useEffect} from 'react'
 import {Grid, GridItem,Flex,Image, Text,Box} from '@chakra-ui/react'
 import { IMGCarrousel } from './const/Images'
 import {motion} from 'framer-motion'
 
 export const Bio= () =>{
-  console.log(IMGCarrousel)
-    return(
+
+  useEffect(()=>{
+    document.title='Biografy'
+  },[])
+  return(
     
         <Flex alignItems='center' justifyContent='center'  height='100%' marginBottom='1rem'  >
            <Grid

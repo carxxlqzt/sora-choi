@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -8,7 +8,9 @@ import '../App.css'
 import { IMGCarrousel } from "./const/Images";
 import {Box} from '@chakra-ui/react'
 export const Carrousel = ()=> {
-
+  useEffect(()=>{
+    document.title='Gallery'
+  },[])
 
     return(
         <Box w='100vw' height={['70vh','80vh','90vh','90vh']} position='relative'  display='flex' alignItems='center'  >

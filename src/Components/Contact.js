@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {Box,Image,Text,Flex} from '@chakra-ui/react'
 import { AGENCIES } from './const/Images'
 import {BsTwitter,BsFacebook,BsInstagram} from 'react-icons/bs'
 
 const Contact = () => {
-    
+  useEffect(()=>{
+    document.title='Contact'
+  },[])
   return (
     <Box w='100vw' height='90vh' position='relative' display='flex' alignItems='center' >
         <Box position='absolute' zIndex='1' h='100%' display='flex' justifyContent='center' flexDirection='column' alignItems='center' w='100%'  bgImage={AGENCIES[5].sora}  filter='auto' blur='2px' brightness='40%' bgRepeat='no-repeat' bgSize='cover' > </Box>

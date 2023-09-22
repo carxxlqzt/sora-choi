@@ -84,13 +84,13 @@ export const PORTFOLIO =[
 ]
 
 export const GALLERY =[
-    {dazed:[ {url:dazd1,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
+    {item:[ {url:dazd1,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
     {url:dazed2,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
     {url:dazed3,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
     {url:dazed4,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
     {url:dazed5,title:'Dazed Korea May 2023', info1:'Photography: Park Sangjun',info2:'Hair: Lee Hyejin',info3:'Styling: Oh Yura'},
 ]},
-    {wow:[{url:wow1,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
+    {item:[{url:wow1,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
     {url:wow2,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
     {url:wow3,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
     {url:wow4,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
@@ -99,12 +99,13 @@ export const GALLERY =[
     {url:wow7,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
     {url:wow8,title:'The WOW - ISSUE 5',info1:'Photography: KOVE LEE',info2:'Stylist: WOO LEE',info3:'Hair: WOOJUN KIM'},
 ]},
-    {elle:[  {url:elle1,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
-    {url:elle2,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
-    {url:elle3,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
-    {url:elle4,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
+{item:[  {url:bazaar1,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
+{url:bazaar2,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
+{url:bazaar3,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
+{url:bazaar4,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
 ]},
-    {vogue:[ {url:vogue1,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
+   
+    {item:[ {url:vogue1,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
     {url:vogue2,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
     {url:vogue3,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
     {url:vogue4,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
@@ -112,16 +113,16 @@ export const GALLERY =[
     {url:vogue6,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
     {url:vogue7,title:'Vogue Korea',info1:'Photografy:HYEA W. KANG',info2:'Stylist:EUNYOUNG SOHN',info3:''},
 ]},
-    {bazaar:[  {url:bazaar1,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
-    {url:bazaar2,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
-    {url:bazaar3,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
-    {url:bazaar4,title:"Harper's BAZAAR",info1:'Photograpy:AMY TROOST ',info2:'Stylist:VIRGINIE BENARROCH',info3:'Published: May 2022'},
+{item:[  {url:elle1,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
+{url:elle2,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
+{url:elle3,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
+{url:elle4,title:'A Different Side of Sora Choi',info1:'Photografy:SHARIF HAMZA',info2:'Stylist:ALEX WHITE',info3:'Published:MAR 15, 2023'},
 ]},
-    {perfect:[  {url:perfect1,title:'Perfect',info1:'Photografy:WILLY VANDERPERRE ',info2:'',info3:''},
+    {item:[  {url:perfect1,title:'Perfect',info1:'Photografy:WILLY VANDERPERRE ',info2:'',info3:''},
     {url:perfect2,title:'Perfect',info1:'Photografy:WILLY VANDERPERRE ',info2:'',info3:''},
     {url:perfect3,title:'Perfect',info1:'Photografy:WILLY VANDERPERRE ',info2:'',info3:''},
 ]},
-    {vacanza:[    {url: vacanza1,title:"Versace x Dua Lipa 'La Vacanza' ",info1:'Designer: Donatella Versace & Dua Lipa',info2:'Stylist: Jacob K',info3:''}
+    {item:[    {url: vacanza1,title:"Versace x Dua Lipa 'La Vacanza' ",info1:'Designer: Donatella Versace & Dua Lipa',info2:'Stylist: Jacob K',info3:''}
 ]}
 ]
 

@@ -1,23 +1,28 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import ImagePlaceholder from "./ImagePlaceholder";
 import {Card,Image,Stack,CardBody,Button,CardFooter,Heading,Text,Flex,ListItem,UnorderedList,List} from '@chakra-ui/react'
 import { IMGCarrousel,PORTFOLIO } from './const/Images'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import {motion} from 'framer-motion'
+import {Link} from 'react-router-dom'
+
 import '../App.css'
 const Portfolio = () => {
+    useEffect(()=>{
+        document.title='Portfolio'
+      },[])
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   return (
 
-    <Flex w='100vw' minHeight='100vh' justifyContent='center' alignItems='center'  marginTop='2rem'   >
+    <Flex w='100vw' minHeight='100vh' flexDirection='column' justifyContent='center' alignItems='center'  marginTop='2rem'   >
+      
         <Flex w='80%' h='80%'justifyContent='space-around' flexWrap='wrap' >
        
         {PORTFOLIO.map((item, index)=>{
-          
             return(
-
+                
                 <Card 
 
                     direction={{ base: 'column', sm: 'row' }}
@@ -55,9 +60,10 @@ const Portfolio = () => {
                                         </CardBody>
                                 
                             <CardFooter p='0rem 1rem 1rem 1rem'>
-                            <Button variant='solid' colorScheme='blue'>
+                            <Link to={`/portfolio/${index}`}> 
+                            <Button variant='solid' colorScheme='blue' >
                                  More details
-                                   </Button>
+                                   </Button></Link>
                                         </CardFooter>
                                 </Stack>
                 </Card>

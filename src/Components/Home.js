@@ -1,8 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {Box,Flex,Text} from '@chakra-ui/react'
 import SoraH from '../Components/Img/Portfolio/home1.mp4'
 
 export const Home = () => {
+
+  useEffect(()=>{
+    document.title='Sora Choi'
+  },[])
+
   return (
     <Box w='100vw' height='100vh' >
         <Flex w='100%' h='100%' justifyContent='center' alignItems='center' position='relative'>
