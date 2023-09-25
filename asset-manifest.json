@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sora-choi/static/css/main.0a3f6472.css",
-    "main.js": "/sora-choi/static/js/main.61261cac.js",
+    "main.js": "/sora-choi/static/js/main.77d0da31.js",
     "static/js/787.6998cd2f.chunk.js": "/sora-choi/static/js/787.6998cd2f.chunk.js",
     "static/media/home1.mp4": "/sora-choi/static/media/home1.2782b57455d0e520930d.mp4",
     "static/media/elle1.jpg": "/sora-choi/static/media/elle1.5140b1476032cf00f099.jpg",
@@ -46,11 +46,11 @@
     "static/media/whilhelmina.jpg": "/sora-choi/static/media/whilhelmina.9f9598d7fd1de68498b6.jpg",
     "index.html": "/sora-choi/index.html",
     "main.0a3f6472.css.map": "/sora-choi/static/css/main.0a3f6472.css.map",
-    "main.61261cac.js.map": "/sora-choi/static/js/main.61261cac.js.map",
+    "main.77d0da31.js.map": "/sora-choi/static/js/main.77d0da31.js.map",
     "787.6998cd2f.chunk.js.map": "/sora-choi/static/js/787.6998cd2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a3f6472.css",
-    "static/js/main.61261cac.js"
+    "static/js/main.77d0da31.js"
   ]
 }
